@@ -1,10 +1,12 @@
+var capitalize = require('capitalize');
+
 module.exports = function(property, el) {
   el = el || document.createElement('div');
-  const prefixes = ['', 'ms', 'Moz', 'webkit'];
-  let result;
-  prefixes.forEach(prefix => {
+  var prefixes = ['', 'ms', 'Moz', 'webkit'];
+  var result;
+  prefixes.forEach(function(prefix){
     if (result) return;
-    let prop = prefix ? prefix + capitalize(property) : property;
+    var prop = prefix ? prefix + capitalize(property) : property;
     if (typeof el.style[prop] !== 'undefined') {
       result = prop;
     }

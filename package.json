@@ -1,0 +1,23 @@
+{
+  "name": "vrefixr",
+  "version": "0.0.0-alpha",
+  "description": "Provide API for css vendor prefix",
+  "main": "index.js",
+  "dependencies": {
+    "capitalize": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashprit/vrefixr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashprit/vrefixr/issues"
+  },
+  "homepage": "https://github.com/yashprit/vrefixr"
+}
